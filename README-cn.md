@@ -1,24 +1,24 @@
 # rollup-plugin-svg-slim
 
-[rollup](https://github.com/rollup/rollup) plug-in, read the svg file and use [svg-slim](https://github.com/benboba/svg-slim) to compress
+[rollup](https://github.com/rollup/rollup) 的插件，读取 svg 文件并使用 [svg-slim](https://github.com/benboba/svg-slim) 进行压缩
 
-## Installation
+## 安装
 
 ```js
 npm install rollup-plugin-svg-slim -D
 ```
 
-or
+或者
 
 ```js
 yarn add rollup-plugin-svg-slim -D
 ```
 
-## Configuration
+## 配置
 
-The following is the schematic code in rollup.config.js
+以下为 rollup.config.js 中的示意代码
 
-### Use default configuration
+### 使用默认配置
 
 ```js
 import svgs from 'rollup-plugin-svg-slim';
@@ -29,9 +29,9 @@ export default ({
 });
 ```
 
-### Custom configuration
+### 自定义配置
 
-For custom configuration, please refer to the [documentation of svg-slim](https://github.com/benboba/svg-slim/blob/master/README-cn.md)
+自定义配置请参考 svg-slim 的[说明文档](https://github.com/benboba/svg-slim/blob/master/README-cn.md)
 
 ```js
 import svgs from 'rollup-plugin-svg-slim';

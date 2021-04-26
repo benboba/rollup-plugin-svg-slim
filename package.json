@@ -1,0 +1,19 @@
+{
+  "name": "rollup-plugin-svg-slim",
+  "version": "1.0.0",
+  "description": "The loader plugin of rollup, reads svg files and compresses them with svg-slim",
+  "main": "index.js",
+  "repository": "git@github.com:benboba/rollup-plugin-svg-slim.git",
+  "author": "benboba<benboba@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test1": "rollup -c test/rollup.simple.js",
+    "test2": "rollup -c test/rollup.cfg.js"
+  },
+  "devDependencies": {
+    "rollup": "^2.45.2"
+  },
+  "dependencies": {
+    "svg-slim": "^2.0.3"
+  }
+}
